@@ -1,0 +1,39 @@
+{
+  "name": "mag-hub",
+  "version": "0.1.0",
+  "description": "Hub for mag loggers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahnunchik/mag-hub.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "keywords": [
+    "mag",
+    "logger",
+    "logging",
+    "log",
+    "facade",
+    "console",
+    "hub"
+  ],
+  "author": {
+    "name": "Eugeny Vlasenko",
+    "email": "mahnunchik+mag@gmail.com",
+    "url": "http://mahnunchik.tumblr.com/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "readable-stream": "^1.0.26"
+  },
+  "devDependencies": {
+    "chai": "^1.9.0",
+    "mocha": "^1.18.0",
+    "jshint": "^2.4.4"
+  }
+}
