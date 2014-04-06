@@ -32,6 +32,22 @@ hub.pipe(info())
   .pipe(process.stdout);
 ```
 
+## Plugins
+
+Plugin is the stream that transforms log object. It can change the content, add or remove fields in the log object.
+
+Known plugins:
+
+* [mag-process-info](https://github.com/mahnunchik/mag-process-info) - Transform stream that adds information about process
+* [mag-format-message](https://github.com/mahnunchik/mag-format-message) - Transform stream that formats message from arguments
+
+## Output plugins
+
+Output plugins is the stream that makes string from log object. This string can be written to a stream like `process.stdout`
+
+Known output plugins:
+
+* [mag-colored-output](https://github.com/mahnunchik/mag-colored-output) - Transform stream that makes collored message from log object
 
 ## License
 
