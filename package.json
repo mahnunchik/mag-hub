@@ -1,7 +1,7 @@
 {
   "name": "mag-hub",
-  "version": "0.1.0",
-  "description": "Hub for mag loggers",
+  "version": "0.1.1",
+  "description": "Hub for mag streams",
   "repository": {
     "type": "git",
     "url": "https://github.com/mahnunchik/mag-hub.git"
@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "readable-stream": "^1.0.26"
+    "readable-stream": "^1.1.12"
   },
   "devDependencies": {
     "chai": "^1.9.0",
