@@ -1,5 +1,7 @@
 # mag-hub [![Build Status](https://travis-ci.org/mahnunchik/mag-hub.svg)](https://travis-ci.org/mahnunchik/mag-hub)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mahnunchik/mag-hub.svg)](https://greenkeeper.io/)
+
 [Mag](https://github.com/mahnunchik/mag) is the streaming logger for NodeJS
 
 `mag-hub` is a hub for all streams of mag logger.
